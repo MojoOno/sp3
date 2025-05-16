@@ -2,7 +2,7 @@ export default function ideas() {
   return (
     <div>
       <h1>Ideas</h1>
-      <p>This is the ideas page of our application.</p>
+      <p>Please send feedback and ideas to this email: notlistening@gmail.com</p>
     </div>
   );
 }
