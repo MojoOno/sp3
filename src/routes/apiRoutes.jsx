@@ -1,12 +1,15 @@
+import About from "../pages/About";
+import About from "../pages/Endpoints";
+import Ideas from "../pages/Ideas";
 
 const apiRoutes = [
     {
         path: 'about',
-        element: <div>About</div>,
+        element: <About />,
     },
     {
         path: 'endpoints',
-        element: <div>Endpoints</div>,
+        element: <Endpoints />,
     },
     {
         path: 'deployed',
@@ -18,7 +21,7 @@ const apiRoutes = [
     },
     {  
         path: 'ideas',
-        element: <div>Ideas</div>,
+        element: <Ideas />,
     }
 ];
 export default apiRoutes;
