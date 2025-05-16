@@ -1,8 +1,12 @@
 .sidebar {
   grid-area: sidebar;
   background-color: var(--secondary);
-  padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  color: var(--text);
+  padding: 1.5rem;
+  border-radius: 12px;
+  width: 250px;
+  height: fit-content;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar h2 {
@@ -28,14 +32,17 @@
   color: var(--text);
   border-radius: 20px;
   transition: background-color 0.3s, color 0.3s;
+  font-weight: bold;
 }
 
+/* Hover effect */
 .sidebar a:hover {
   background-color: var(--muted-text);
   color: var(--accent);
 }
 
-.sidebar a.active {
+/* Active link */
+.active {
   background-color: var(--accent);
   color: white;
   font-weight: bold;
