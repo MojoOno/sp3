@@ -1,7 +1,6 @@
 import React from "react";
 
 export default function Endpoints() {
-  const TableComponent = () => {
     const tableData = [
       ["Get", "/api/opgave", " ", "[Question1, Question2, ...]", " "],
       ["Get", "/api/opgave/{id}", " ", "[Question{id}]", " "],
@@ -38,5 +37,4 @@ export default function Endpoints() {
         </tbody>
       </table>
     );
-  };
 }
