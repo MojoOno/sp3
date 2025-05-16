@@ -7,12 +7,13 @@
 }
 
 [data-theme="dark"] {
-  --primary: #121212;
-  --secondary: #1E1E1E;
-  --text: #FFFFFF;
-  --muted-text: #B3B3B3;
-  --accent: #BB86FC;
+  --primary: #1b1f1a;            /* deep olive/forest charcoal */
+  --secondary: #234c35;          /* dark muted green */
+  --text: #f5f5f5;               /* soft white for less contrast strain */
+  --muted-text: #a0a0a0;         /* soft gray for secondary info */
+  --accent: #74c1be;             /* muted turquoise to match light theme */
 }
+
 
 body {
   background-color: var(--primary);
