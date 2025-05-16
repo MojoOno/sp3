@@ -1,5 +1,5 @@
 import About from "../pages/About";
-import About from "../pages/Endpoints";
+import Endpoints from "../pages/Endpoints";
 import Ideas from "../pages/Ideas";
 
 const apiRoutes = [
