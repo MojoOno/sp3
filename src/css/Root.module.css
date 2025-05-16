@@ -1,0 +1,30 @@
+:root {
+  --background: #FFFFFF;
+  --secondary-background: #F5F5F5;
+  --text: #000000;
+  --muted-text: #666666;
+  --accent: #6200EE;
+}
+
+[data-theme="dark"] {
+  --background: #121212;
+  --secondary-background: #1E1E1E;
+  --text: #FFFFFF;
+  --muted-text: #B3B3B3;
+  --accent: #BB86FC;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text);
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
