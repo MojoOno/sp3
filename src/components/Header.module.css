@@ -1,0 +1,8 @@
+.header {
+  background-color: var(--secondary);
+  color: var(--text);
+  text-align: center;
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 0.5rem; /* reduce space below header */
+}
