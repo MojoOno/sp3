@@ -10,8 +10,6 @@ const Root = () => {
       <div className={styles.layout}>
         <Sidebar />
         <main className={styles.main}>
-          <h1>Root Component</h1>
-          <p>This is the root component of the application.</p>
           <Outlet />
         </main>
       </div>

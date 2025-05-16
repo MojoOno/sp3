@@ -1,9 +1,13 @@
 .root {
   min-height: 100vh;
+  background-image: url('https://www.transparenttextures.com/patterns/blackboard.png');
   background-color: var(--primary);
   color: var(--text);
   padding: 2rem;
   box-sizing: border-box;
+  
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  font-size: 1.2rem;
 }
 
 /* Flex container for Sidebar + Main */
@@ -17,6 +21,7 @@
   flex: 1;
   padding: 2rem;
   background-color: var(--secondary);
+  border: 2px solid var(--chalkboard-border);
   border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
