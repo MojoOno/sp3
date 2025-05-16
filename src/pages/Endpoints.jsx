@@ -19,7 +19,7 @@ export default function Endpoints() {
     ];
 
     return (
-    <div className="center-container">
+    <div className={styles.centercontainer}>
       <table border="1">
         <thead>
           <tr>
