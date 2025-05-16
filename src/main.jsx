@@ -5,7 +5,6 @@ import apiRoutes from './routes/apiRoutes';
 import ErrorPage from './ErrorPage.jsx';
 import Root from './components/Root.jsx';
 import './index.css'
-import App from './App.jsx';
 
 
 const router = createBrowserRouter([
