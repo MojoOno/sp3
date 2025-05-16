@@ -1,4 +1,5 @@
 import React from "react";
+import styles from "./Endpoints.module.css";
 
 export default function Endpoints() {
     const tableData = [
@@ -18,10 +19,11 @@ export default function Endpoints() {
     ];
 
     return (
+    <div className="center-container">
       <table border="1">
         <thead>
           <tr>
-            {coloumnHeaders.map((header, index) => (
+            {columnHeaders.map((header, index) => (
               <th key={index}>{header}</th>
             ))}
           </tr>
@@ -36,5 +38,6 @@ export default function Endpoints() {
           ))}
         </tbody>
       </table>
-    );
+    </div>
+  );
 }
