@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Endpoints.module.css";
+import styles from "../css/pages.module.css";
 
 export default function Endpoints() {
     const tableData = [
@@ -23,7 +23,7 @@ export default function Endpoints() {
       <table border="1">
         <thead>
           <tr>
-            {columnHeaders.map((header, index) => (
+            {coloumnHeaders.map((header, index) => (
               <th key={index}>{header}</th>
             ))}
           </tr>
